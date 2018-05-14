@@ -1,0 +1,7 @@
+{
+  "name": "dlogic",
+  "description": "My test module",
+  "type": "stdio",
+  "path": "/usr/lib/mozilla/native-messaging-hosts/ufr",
+  "allowed_extensions": ["ufr@d-logic.rs"]
+}

@@ -1,3 +1,0 @@
-[submodule "browser_extensions"]
-	path = browser_extensions
-	url = https://git.d-logic.net/nfc-rfid-reader-sdk/ufr-browser_extensions.git

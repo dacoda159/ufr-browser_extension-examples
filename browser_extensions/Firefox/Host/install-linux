@@ -1,0 +1,18 @@
+#!/bin/bash
+
+arc=`$(echo uname -m)`
+
+
+
+
+if [ "$arc" = "x86_64" ]; then
+
+	mkdir -p /usr/lib/mozilla/native-messaging-hosts/
+	cp data/Linux/x86_64/ufr /usr/lib/mozilla/native-messaging-hosts/ufr
+	cp data/Linux/dlogic.json /usr/lib/mozilla/native-messaging-hosts/dlogic.json
+else
+
+	mkdir -p /usr/lib/mozilla/native-messaging-hosts/
+	cp data/Linux/x86/ufr /usr/lib/mozilla/native-messaging-hosts/ufr
+	cp data/Linux/dlogic.json /usr/lib/mozilla/native-messaging-hosts/dlogic.json
+fi
